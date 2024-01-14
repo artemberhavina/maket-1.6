@@ -1,0 +1,211 @@
+@import './var.scss';
+@import './fonts.scss';
+@import './resetStyle.scss';
+@import './header.scss';
+@import './mainBeforeRepair.scss';
+@import './aside.scss';
+@import './sliderBrands.scss';
+@import './mainAfterRepair.scss';
+@import './popupMenu.scss';
+@import './popupCallBack.scss';
+@import './popupOrderCall.scss';
+
+
+
+
+body {
+  font-family: 'TT Lakes';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: $mainColor;
+  background: $bgColor;
+  min-width: 320px;
+  box-sizing: border-box;
+  position: relative;
+
+}
+
+/* ФЭЙДЫ */
+
+.fade {
+  width: 24px;
+  height: 81px;
+  flex-shrink: 0;
+  background: linear-gradient(270deg, #F8F8F8 16.84%, rgba(248, 248, 248, 0.00) 100%);
+  position: absolute;
+  right: 0;
+  z-index: 5; 
+}
+
+.fade__slide1 {
+  top: 685px;
+}
+
+.fade__slide2 {
+  width: 24px;
+  height: 166px;
+  top: 905px;
+}
+
+.fade__slide3 {
+  width: 24px;
+  height: 200px;
+  top: 1145px;
+}
+
+.fade__slide4 {
+  width: 24px;
+  height: 40px;
+  top: 180px;
+}
+
+.aside {
+  display: none;
+}
+
+.main__title-btn1440 {
+  display: none;
+}
+
+.main__description-reviews {
+  display: none;
+}
+
+.main__image1440 {
+  display: none;
+}
+
+.footer-1366 {
+  display: none;
+}
+
+@media (min-width: 368.98px) {
+  .fade__slide1 {
+    top: 665px;
+  }
+  .fade__slide2 {
+    top: 860px;
+  }
+
+}
+
+@media (min-width: 347.98px) and (max-width:368px) {
+  .fade__slide2 {
+    top: 880px;
+  }
+}
+
+@media (min-width: 768px) {
+  .fade__slide1 {
+    display: none;
+  }
+  .fade__slide2 {
+    display: none;
+  }
+  .fade__slide3 {
+    display: none;
+  }
+}
+
+@media (min-width: 1366px) {
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+
+
+  }
+
+ 
+  .aside {
+    display: block;
+  }
+
+  .aside__container {
+    width: 246px;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .main__title-container1440 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+
+  .main__title {
+    margin-top: 42px;
+    margin-bottom: 8px;
+  }
+
+
+  .main__title-btn1440 {
+    display: flex;
+    align-items: center;
+    margin-top: 34px;
+  }
+
+  .btn {
+    margin-left: 9px;
+  }
+
+  .btn-repair-margin {
+    margin-right: 32px;
+  }
+
+  .main__description-reviews {
+    display: block;
+    margin-left: 58px;
+    margin-bottom: 20px;
+  }
+
+  .main__text-container {
+    width: 490px;
+  }
+  
+  .main__image1440 {
+    display: flex;
+  }
+  .main__image {
+    display: none;
+  }
+
+  .container {
+    position: relative;
+    margin-left: 246px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-1366 {
+    display: block;
+  }
+  
+  .footer {
+    display: none;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .flex-container {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .aside__container {
+    width: 320px;
+  }
+  .main__text-container {
+    width: 490px;
+  }
+
+  .container {
+    position: relative;
+    margin-left: 320px;
+  }
+}

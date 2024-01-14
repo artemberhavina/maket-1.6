@@ -1,0 +1,538 @@
+.main__text-diferentRepair--margin {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+/* ВТОРОЙ СЛАЙДЕР */
+.swiper-wrapper--slide2 {
+    margin-left: 16px;
+}
+
+.content-card {
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    height: 160px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;   
+    background: #FFF;
+}
+
+
+.contentText-slider-2 {
+    color: #1B1C21;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.link-slider-2 {
+    margin-top: 104px;
+    margin-right: 16px;
+}
+
+.main__slider-2 .swiper-pagination-slide-2 {
+    bottom: 0;
+    position: relative;
+    margin-top: 16px;
+    
+    
+}
+.main__slider-2 .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #B5B6BC;
+}
+
+.main__textService {
+    color: #7E7E82;
+    line-height: 24px; 
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+    padding: 16px;
+    margin-top: 24px;
+    background: $gradientMain;
+    border-top: 1px solid $decorColor;
+}
+
+/* ОТКРЫТИЕ СКРЫТЫХ СЛАЙДОВ*/
+.slide2-open768 {
+    display: flex;
+}
+
+/* Анимация переворачивания SVG кнопки при нажатии*/
+.main__slider-svgArrows--slider2-rotate768 {
+    transform: rotate(180deg);
+    transition-duration: 0.2s;
+}
+
+/* 3 слайдер */
+.swiper-wrapper--slide3 {
+    margin-left: 8px;
+}
+.content-slide-3 {
+    width: 260px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-slide-3__flex {
+    padding-bottom: 16px;
+}
+
+.sub-content-slide-3 {
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.content-slide-3__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-slide-3--title {
+    color: #7E7E82;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    opacity: 0.7218;
+}
+
+.content-slide-3--text {
+    color: #1B1C21;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+}
+
+.content-slide-3__order {
+    align-self: flex-end;
+    padding-right: 16px;
+}
+
+
+
+.btn-order {
+    display: flex;
+    justify-content: space-between;
+    width: 119px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF3E79;
+    align-items: center;
+}
+
+.btn-order__text {
+    color: #FFF; 
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    letter-spacing: -0.15px;
+    text-transform: uppercase;
+    padding-left: 12px;
+}
+
+.btn-order__svg {
+    padding-right: 8px;
+}
+
+.main__slider3 .swiper-pagination-slide-3 {
+    bottom: 0;
+    position: relative;
+    margin-top: 16px;
+    
+    
+}
+.main__slider3 .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #B5B6BC;
+}
+
+/* ТАБЛИЦА 3 СВАЙПЕРА*/
+.main__servisePrise-container {
+    display: none;
+}
+
+.main__servisePrise-Row--decor {
+    width: 688px;
+    height: 1px;
+    flex-shrink: 0;
+    background: #EAEAEA;
+    align-self: flex-end;
+    margin-left: 16px;
+}
+
+.content-slide-3--text {
+    color: #1B1C21;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; 
+    letter-spacing: 0.2px;
+}
+
+.content-slide-3--title768 {
+    padding-bottom: 16px;
+    color: #7E7E82;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    opacity: 0.7218;
+}
+
+.content-slide-3--title-price {
+    position: absolute;
+    left: 388px;
+}
+
+.content-slide-3--title-time {
+    position: absolute;
+    left: 484px;
+}
+.main__servisePrise-container {
+    width: 720px;
+    height: 382px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+    margin: 0 auto;
+}
+
+.main__NDS-warning {
+    width: 288px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.main__NDS-warning-text {
+    color: #1B1C21;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 0.2px;
+}
+
+.main__NDS-warning768 {
+    display: none;
+}
+
+.main__getOffer320 {
+    width: 192px;
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.main__getOffer-svg {
+    vertical-align: middle;
+}
+
+.main__getOffer-link {
+    color: #1B1C21;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: -0.2px;
+}
+
+.main__getOffer-link:hover {
+    color: $activeLink;
+}
+
+.main__textService {
+    margin-bottom: 16px;   
+}
+
+/* АНИМАЦИЯ ДЛЯ КНОПОК ЗАКАЗАТЬ*/
+.btn-order:hover {
+    animation-name: opacity;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+}
+
+.main__button-decor {
+    width: 100vh;
+    height: 1px;
+    flex-shrink: 0;
+    background: #D9FFF5;
+    margin-top: 40px;
+}
+
+/* ФУТЕР */
+.footer__text {
+    color: #7E7E82;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    opacity: 0.7218;
+}
+
+.footer__copyright {
+    margin: 16px 0;
+}
+
+.footer__publicOfert {
+    margin-top: 16px;
+    padding-bottom: 19px;
+}
+
+@media (min-width: 768px) {
+    .swiper-pagination-slide-2 {
+        display: none;
+    }
+    .main__textService {
+        padding-left: 24px;
+        margin-top: 24px;
+        margin-bottom: 0;
+        
+    }
+
+
+    .slide2-hide768 {
+        display: none;
+    }
+    .main__slider3 {
+        display: none;
+    }
+    
+    .main__servisePrise-container {
+        display: block;
+    }
+
+    .main__NDS-warning {
+        width: 421px;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+    .main__NDS-warning320 {
+        display: none;
+    }
+
+    .main__NDS-warning768 {
+        display: block;
+        margin-bottom: 16px;
+        width: 421px;
+        margin-top: 24px;
+    }
+
+    .main__getOffer320 {
+        display: none;
+    }
+
+    /* ШАПКА*/
+    .footer__container {
+        position: relative;
+        top: 160px;
+        
+    }
+
+    .footer__container {
+        display: flex;
+        justify-content: space-between;
+        width: 720px;
+        height: 105px;
+        margin: 0 auto;
+        border-top: 1px solid #D9FFF5;   
+    }
+
+    .footer__text {
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer__copyright {
+        padding-top: 40px;
+        margin: 0;
+    }
+    .footer__policyConfidentional {
+        padding-top: 40px;
+    }
+    .footer__publicOfert {
+        padding: 0;
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .footer__text-copyright {
+        text-align: left;
+    }
+    .footer__text-policyConfidentional {
+        text-align: justify;
+    }
+    .footer__publicOfert {
+        width: 230px;
+    }
+    .footer__text-publicOfert {
+        text-align: right
+    }
+
+    .swiper-wrapper--slide1 {
+        margin: 0;
+    }
+    .swiper-wrapper--slide2 {
+        margin: 0;
+    }
+ 
+
+
+
+
+    /* ПОЗИЦИОНИРОВАНИЕ ЭЛЕМЕНТОВ ТАБЛИЦЫ 3 СЛАЙДА*/
+    .main__servisePrise-container--title {
+        display: flex;
+        height: 64px;
+        background-color: #F8F8F8;
+        align-items: end;
+        padding-left: 16px;
+        position: relative;
+    }
+    
+    .main__servisePrise-Row {
+        height: 64px;
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .content-slide-3--title {
+        position: absolute;
+        left: 16px;
+    }
+    
+    .content-slide-3--price {
+        position: absolute;
+        left: 388px; 
+    }
+    
+    .content-slide-3--time {
+        position: absolute;
+        left: 484px;     
+    }
+    
+    .btn-order--position {
+        position: absolute;
+        left: 585px; 
+    }
+  
+}
+
+@media (min-width: 1440px) {
+    .main__textService {
+        padding-left: 32px;
+        margin-top: 24px;
+    }
+    .slide2-show1440 {
+        display: flex;
+    }
+    .swiper-wrapper--slide1 {
+        margin: 0;
+    }
+    .swiper-wrapper--slide2 {
+        margin: 0;
+    }
+    .main__servisePrise-container {
+        width: 1056px;
+        margin: 0 auto;
+        margin-left: 32px;
+    }
+
+    .content-slide-3--title {
+        left: 24px;
+    }
+    
+    .content-slide-3--price {
+        left: 494px; 
+    }
+    
+    .content-slide-3--time {
+        left: 721px;     
+    }
+    
+    .btn-order--position {
+        left: 913px; 
+    }
+
+    .main__servisePrise-Row--decor {
+        width: 1008px;
+    }
+
+    .main__servisePrise-container--title {
+        padding-left: 24px;
+    }
+    .content-slide-3--title768 {
+        left: 24px;
+    }
+
+    .content-slide-3--title-price {
+        left: 494px;
+    }
+
+    .content-slide-3--title-time {
+        left: 721px;
+    }
+
+    /*ШАПКА*/
+    .footer__container {
+        width: 1056px;
+        height: 85px;
+        margin: 0 auto;
+        border-top: 1px solid #D9FFF5; 
+    }
+    .swiper-wrapper--slide2 {
+        margin: 0;
+    }
+
+    .footer__copyright {
+        padding-top: 32px;
+        margin: 0;
+    }
+    .footer__policyConfidentional {
+        padding-top: 32px;
+    }
+    .footer__publicOfert {
+        padding: 0;
+        margin: 0;
+        padding-top: 32px;
+    }
+
+    .footer__text-copyright {
+        text-align: left;
+    }
+    .footer__text-policyConfidentional {
+        text-align: justify;
+    }
+    .footer__publicOfert {
+        width: 330px;
+    }
+    .footer__text-publicOfert {
+        text-align: right
+    }
+
+
+  
+}

@@ -1,0 +1,118 @@
+
+
+
+.header {
+    min-width: 320px;
+    background-color: $bgWhite;
+  
+  }
+  
+  .header__container {
+    
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16px;
+  }
+  
+  .header__left {
+    display: flex;
+  }
+  .header__right {
+    display: flex;
+  }
+  
+  .header__logo-link {
+  
+    align-self: center;
+  }
+  
+  .btn-burger {
+    margin-right: 16.73px;
+  }
+  .btn-call {
+    display: none;
+  }
+  .btn-chat {
+    display: none;
+  }
+  .btn-profile {
+    display: none;
+  }
+  .btn-checkstatus {
+    margin-left: 16px;
+  }
+  
+  
+.header__decor {
+    width: 2px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 1px;
+    background: $bgColor;
+    align-self: center;
+    margin-left: 16.73px;
+}
+  
+  .header__decor768 {
+    display: none;
+  }
+  
+  
+  .btn {
+    background-color: $bgWhite;
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    align-self: center;
+  }
+  
+  @keyframes opacity {
+    0% {
+      opacity: 100%;
+    }
+    100% {
+      opacity: 70%;
+    }
+  }
+  
+  .btn:hover {
+    animation-name: opacity;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+  }
+  
+  .header__logo-link:hover {
+    animation-name: opacity;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;
+  }
+  
+  @media (min-width: 768px) {
+  
+    .header__container {
+      margin: 0 24px;
+    }
+    .header__decor768 {
+      display: flex;
+      margin-right: 20.73px;
+    }
+    .header__decor320 {
+      display: none;
+    }
+  
+    .btn-call {
+      display: flex;
+    }
+    .btn-chat {
+      display: flex;
+      margin: 0 16px;
+    }
+    .btn-profile {
+      display: flex;
+    }
+  
+  
+  }
+
+  

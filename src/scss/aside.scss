@@ -1,0 +1,177 @@
+*{
+    box-sizing: border-box;
+}
+
+.aside__container {
+    background-color: $bgWhite;
+    height: 100vh;
+    width: 320px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+/*  Хедер */
+.aside__header {
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 22px;
+    margin-right: 29px;
+    margin-bottom: 24px;
+    padding-top: 30px;
+}
+
+.aside__header_link {
+    align-self: center;
+}
+
+.aside__btn {
+    background-color: $bgWhite;
+}
+
+/*  Списки */
+
+
+
+.aside__item {
+    margin-bottom: 28px;
+    display: flex;    
+}
+
+.aside__item:last-child {
+    margin-bottom: 0px;
+}
+
+.aside__item_link {
+    color: #1B1C21;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: -0.2px;
+    align-self: center;
+    margin-left: 24px;   
+}
+
+/*  Активный список */
+.aside__item_link-active {
+    color: $activeLink;
+    margin-left: 19.17px;  
+}
+
+
+/* Футер */
+.aside__footer {
+    margin-left: 19px;
+}
+
+.aside__footer_btn {
+ margin-bottom: 16px;
+}
+
+.aside__btn_chat {
+    margin: 0 16px;
+}
+
+.aside__mail {
+    color: $mainColor;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: -0.2px;
+
+}
+
+.aside__phone {
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    color: $mainColor;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; 
+    letter-spacing: -0.6px;
+}
+
+.aside__language_list {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.aside__language_link-size {
+    margin: 0 7px;
+}
+
+.aside__language_link {
+    color: $mainColor;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    text-transform: uppercase;
+}
+
+.aside__language_link-active {
+    color: $activeLink;
+}
+
+/* Ховеры */
+.aside__item_link:hover {
+    color: $activeLink;
+}
+
+.aside__language_link:hover {
+    color: $activeLink;
+}
+
+.aside__mail:hover {
+    text-decoration: underline;
+}
+
+.aside__phone:hover {
+    text-decoration: underline;
+}
+
+
+/* Анимация */
+
+@keyframes opacity {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 70%;
+    }
+}
+
+.aside__btn:hover {
+    animation-name: opacity;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;   
+}
+
+.aside__header_link:hover {
+    animation-name: opacity;
+    animation-duration: 300ms;
+    animation-fill-mode: forwards;    
+}
+
+@media (min-width: 1366px) {
+
+
+    .aside {
+        display: block;
+    }
+
+    .aside__container {
+        width: 246px;
+    }
+}
+
+

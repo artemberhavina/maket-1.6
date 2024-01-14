@@ -1,0 +1,113 @@
+
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-wrapper--slide1 {
+    margin-left: 16px;
+}
+
+.image-slider .swiper-pagination {
+    bottom: 0;
+    position: relative;
+    margin-top: 16px;
+}
+.image-slider .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    line-height: 20px;
+    font-size: 14px;
+    background-color: #B5B6BC;
+}
+
+
+
+.image-slider__slide {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    max-width: 240px;
+    height: 72px;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #EAEAEA;   
+    background: $bgWhite;
+    padding: 0 16px;
+    
+}
+
+/* КНОПКИ ДЛЯ СЛАЙДЕРОВ*/
+.main__slider-btn {
+    display: none;
+    margin-top: 24px;
+    background-color: $bgColor;
+}
+.main__slider-textOpen {
+    align-self: center;
+    color: #1B1C21;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    letter-spacing: -0.2px;
+}
+
+/* КЛАССЫ ОТКРЫТИЯ СЛАЙДЕРОВ*/
+.slide1-open768 {
+    display: flex;
+}
+
+/* Анимация переворачивания SVG кнопки при нажатии*/
+.main__slider-svgArrows--slider1-rotate768 {
+    transform: rotate(180deg);
+    transition-duration: 0.2s;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 224px);
+        row-gap: 16px;
+        column-gap: 24px;
+        justify-content: center;
+    }
+
+
+    .slider-1 {
+        display: grid;
+        margin: 0;
+        justify-content: center;
+    }
+    .swiper-pagination {
+        display: none;
+    }
+
+    .main__slider-btn {
+        display: flex;
+        margin-bottom: 32px;   
+    }
+
+    .slide1-hide768 {
+        display: none;
+    }
+}
+@media (min-width: 1440px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 240px);
+        column-gap: 32px;
+        justify-content: center;      
+    }
+    .main__slider-btn {
+        margin-bottom: 32px;   
+    }
+    
+    .slide1-hide768--for1440 {
+        display: flex;
+    }
+}
+
+
+
+

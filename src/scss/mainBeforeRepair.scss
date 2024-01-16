@@ -54,14 +54,22 @@
       
 }
 .main__services-link:hover {
-    opacity: 0.7;  
+    
+    border-radius: 6px;
+    background: #FFF;
+    outline: 2px solid #B8FFEC;   
+}
+
+.main__services-item--reviews-div {
+    width: 110px;
 }
 
 
 .main__services-link--active {
     border-radius: 6px;
     background: #FFF;
-    outline: 2px solid #B8FFEC;  
+    outline: 2px solid #B8FFEC;
+    opacity: 0.7;  
 }
 
 .main__description {
